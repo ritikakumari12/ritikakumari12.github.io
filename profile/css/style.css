@@ -81,13 +81,13 @@ header nav .left a:hover{
     font-size:3rem;
     font-weight: 100;
     line-height: 1.2;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 .me .below h1 span{
     color: var(--blue);
 }
 .me .below p{
-    line-height: 1.5;
+    line-height: 1.2;
     margin-bottom: 2rem;
     margin-right: 3rem;
 }
