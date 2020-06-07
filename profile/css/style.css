@@ -14,13 +14,16 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
-.container
+header .container
 {
     background-color:var(--primary);
     max-width:100%;
     padding: 15px 15px;
     margin:0 auto;
-    
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    z-index: 300;
 }
 .left a{
 color: var(--white);
@@ -49,23 +52,25 @@ header nav .left a:hover{
     color:var(--blue);
 }
 .bg{
-    position: relative;
+    padding-top: 50px;
+    margin-top: relative;
 }
 .me{
     position: absolute;
     background-color: var(--pink);
     border-radius: 15px;
     margin-top: -30rem;
-    margin-left: 11rem;
-    margin-right: 11rem;
+    margin-left: 17rem;
+    margin-right: 17rem;
 }
 .me img{
-    width: 200px;
-    margin-left: 3rem;
+    width: 180px;
+    margin-left: 2rem;
+    border:4px solid var(--blue);
 }
 .me .below{
     color: var(--primary);
-    margin-left: 5rem;
+    margin-left: 1rem;
 }
 .me .below h6{
     padding-top: 15px;
@@ -82,11 +87,11 @@ header nav .left a:hover{
     color: var(--blue);
 }
 .me .below p{
-    line-height: 1.9;
+    line-height: 1.5;
     margin-bottom: 2rem;
 }
-section{
-    padding:3rem 0;
+.about{
+    padding:7rem 0;
     background: var(--primary);
 }
 .about .about-me {
@@ -116,9 +121,10 @@ section{
 }
 .social ul{
     position: absolute;
-    margin-left: 7rem;
+    margin-left: 9rem;
     transform:translate(-50%,-50%);
     display:flex;
+    padding-bottom: 50px;
 }
 .social ul li{
     list-style: none;
@@ -155,10 +161,19 @@ section{
 .social ul li:nth-child(3) a:hover{
     background-color: #b92b27;
 }
-.skills .container{
-    padding-top:30px;
+.social ul li:nth-child(3) a:hover{
+    background-color: #0077B5;
+}
+.social ul li:nth-child(4) a:hover{
+    background-color: #0077B5;
+}
+.skills{
     background-color: var(--white);
-    height: 450px;
+}
+.skills .container{
+    background-color: var(--white);
+    padding-top: 50px;
+    height: 620px;
     padding-left: 60px;
     padding-right: 60px;
 }
@@ -166,9 +181,9 @@ section{
     padding-top:30px;
     color: var(--primary);
     text-align: center;
-    margin-bottom: 5.5rem;
+    margin-bottom: 8rem;
     line-height: 1;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 .skills .container h1 span{
     color:var(--blue);
@@ -180,7 +195,8 @@ section{
 }
 .grid-wrapper .grid{
     background: var(--primary);
-    padding:3rem 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     position: relative;
     text-align: center;
     border-radius: 15px;
@@ -214,4 +230,92 @@ section{
 }
 .skills .grid-wrapper .grid:hover ul li{
     color:var(--yellow);
+}
+.projects{
+    background-color: var(--primary);
+    height: 600px;
+    text-align: center;
+}
+.projects h1{
+    padding-top: 50px;
+    text-align: center;
+    color: var(--white);
+    font-size: 2.5rem;
+    padding-bottom: 5rem;
+}
+.projects h1 span{
+    color: var(--yellow);
+}
+.projects img{
+    width:400px;
+    border:2px solid var(--white);
+}
+.projects h3{
+    color: var(--white);
+    font-size: 1.2rem;
+}
+.projects p{
+    color: var(--white);
+   margin-right: 10rem;
+   margin-left: 10rem;
+   font-size: 1rem;
+}
+.contact{
+    text-align: center;
+    background-color: var(--yellow);
+    height: 200px;
+}
+.contact h1{
+    padding-top: 15px;
+    color:var(--primary);
+}
+.social1{
+    padding-top: 4rem;
+    padding-left: 35rem;
+}
+.social1 ul{
+    position: absolute;
+    margin-left: 7rem;
+    transform:translate(-50%,-50%);
+    display:flex;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.social1 ul li{
+    list-style: none;
+    margin:0 15px;
+}
+.social1 ul li .fa{
+    font-size: 30px;
+    line-height: 50px;
+    transition: .6s;
+    color: var(--primary);
+}
+.social1 ul li .fa:hover{
+    color:var(--yellow) ;
+}
+.social1 ul li a{
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--white);
+    text-align: center;
+    transition: .6s;
+}
+.social1 ul li a:hover{
+    transform:translate(0,-10px);
+}
+.social1 ul li:nth-child(1) a:hover{
+    background-color: #3b5999;
+}
+.social1 ul li:nth-child(2) a:hover{
+    background-color: #e4405f;
+}
+.social1 ul li:nth-child(3) a:hover{
+    background-color: #b92b27;
+}
+.social1 ul li:nth-child(4) a:hover{
+    background-color: #0077B5;
 }
