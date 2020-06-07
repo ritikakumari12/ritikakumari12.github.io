@@ -89,6 +89,7 @@ header nav .left a:hover{
 .me .below p{
     line-height: 1.5;
     margin-bottom: 2rem;
+    margin-right: 3rem;
 }
 .about{
     padding:7rem 0;
@@ -272,14 +273,15 @@ header nav .left a:hover{
 .social1{
     padding-top: 4rem;
     padding-left: 35rem;
+    text-align: center;
 }
 .social1 ul{
     position: absolute;
-    margin-left: 7rem;
     transform:translate(-50%,-50%);
     display:flex;
     padding-bottom: 50px;
-    text-align: center;
+    margin-left: 7rem;
+    margin-right: 7rem;
 }
 .social1 ul li{
     list-style: none;
