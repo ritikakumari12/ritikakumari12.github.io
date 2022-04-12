@@ -1,4 +1,5 @@
 # ritikakumari12.github.io
+[Link to the Website](https://ritikakumari12.github.io/)
 My portfolio website
 **Ritika Kumari**
 **Group 2**
